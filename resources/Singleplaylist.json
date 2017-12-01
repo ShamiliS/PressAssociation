@@ -1,0 +1,77 @@
+{
+  "definitions": {}, 
+  "$schema": "http://json-schema.org/draft-06/schema#", 
+  "$id": "http://turing.niallbunting.com:3000/api/playlist/", 
+  "type": "object", 
+  "properties": {
+    "_id": {
+      "$id": "/properties/_id", 
+      "type": "string"
+    }, 
+    "desc": {
+      "$id": "/properties/desc", 
+      "type": "string"
+    }, 
+    "title": {
+      "$id": "/properties/title", 
+      "type": "string"
+    }, 
+    "videos": {
+      "$id": "/properties/videos", 
+      "type": "array", 
+      "items": {
+        "$id": "/properties/videos/items", 
+        "type": "object", 
+        "properties": {
+          "_id": {
+            "$id": "/properties/videos/items/properties/_id", 
+            "type": "string"
+          }, 
+          "artist": {
+            "$id": "/properties/videos/items/properties/artist", 
+            "type": "string"
+          }, 
+          "song": {
+            "$id": "/properties/videos/items/properties/song", 
+            "type": "string"
+          }, 
+          "publishDate": {
+            "$id": "/properties/videos/items/properties/publishDate", 
+            "type": "string"
+          }, 
+          "date_created": {
+            "$id": "/properties/videos/items/properties/date_created", 
+            "type": "string"
+          }, 
+          "__v": {
+            "$id": "/properties/videos/items/properties/__v", 
+            "type": "integer"
+          }, 
+          "hidden": {
+            "$id": "/properties/videos/items/properties/hidden", 
+            "type": "string"
+          }
+        }, 
+        "required": [
+          "_id"
+        ]
+      }
+    }, 
+    "date_created": {
+      "$id": "/properties/date_created", 
+      "type": "string"
+    }, 
+    "__v": {
+      "$id": "/properties/__v", 
+      "type": "integer"
+    }
+  }, 
+  "required": [
+    "_id", 
+    "desc", 
+    "title", 
+    "videos", 
+    "date_created", 
+    "__v"
+  ]
+}

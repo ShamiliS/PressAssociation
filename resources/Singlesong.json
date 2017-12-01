@@ -1,0 +1,32 @@
+{
+  "definitions": {}, 
+  "$schema": "http://json-schema.org/draft-06/schema#", 
+  "$id": "http://turing.niallbunting.com:3000/api/video", 
+  "type": "object", 
+  "properties": {
+    "_id": {
+      "$id": "/properties/_id", 
+      "type": "string"
+    }, 
+    "artist": {
+      "$id": "/properties/artist", 
+      "type": "string"
+    }, 
+    "song": {
+      "$id": "/properties/song", 
+      "type": "string"
+    }, 
+    "publishDate": {
+      "$id": "/properties/publishDate", 
+      "type": "string"
+    }, 
+    "__v": {
+      "$id": "/properties/__v", 
+      "type": "integer"
+    }, 
+    "date_created": {
+      "$id": "/properties/date_created", 
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "definitions": {}, 
+  "$schema": "http://json-schema.org/draft-06/schema#", 
+  "$id": "http://turing.niallbunting.com:3000/api/playlist/", 
+  "type": "object", 
+  "properties": {
+    "__v": {
+      "$id": "/properties/__v", 
+      "type": "integer"
+    }, 
+    "desc": {
+      "$id": "/properties/desc", 
+      "type": "string"
+    }, 
+    "title": {
+      "$id": "/properties/title", 
+      "type": "string"
+    }, 
+    "_id": {
+      "$id": "/properties/_id", 
+      "type": "string"
+    }, 
+    "videos": {
+      "$id": "/properties/videos", 
+      "type": "array", 
+      "items": {
+        "$id": "/properties/videos/items", 
+        "type": "string"
+      }
+    }, 
+    "date_created": {
+      "$id": "/properties/date_created", 
+      "type": "string"
+    }
+  }, 
+  "required": [
+    "__v", 
+    "desc", 
+    "title", 
+    "_id", 
+    "videos", 
+    "date_created"
+  ]
+}

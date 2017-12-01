@@ -1,0 +1,5 @@
+<input>
+	<endpoint>http://turing.niallbunting.com:3000</endpoint>
+	<resource>/api/video</resource>
+	<vaildId>5a0ed5435286cd00111a81e2</vaildId>
+</input>

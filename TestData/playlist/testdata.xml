@@ -1,0 +1,5 @@
+<input>
+	<endpoint>http://turing.niallbunting.com:3000</endpoint>
+	<resource>/api/playlist</resource>
+	<vaildId>5a1425c550e40b00ef4cf086</vaildId>
+</input>

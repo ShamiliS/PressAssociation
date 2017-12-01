@@ -1,0 +1,36 @@
+{
+  "definitions": {}, 
+  "$schema": "http://json-schema.org/draft-06/schema#", 
+  "$id": "http://turing.niallbunting.com:3000/api/video", 
+  "type": "array", 
+  "items": {
+    "$id": "http://turing.niallbunting.com:3000/api/video/items", 
+    "type": "object", 
+    "properties": {
+      "_id": {
+        "$id": "http://turing.niallbunting.com:3000/api/video/items/properties/_id", 
+        "type": "string"
+      }, 
+      "artist": {
+        "$id": "http://turing.niallbunting.com:3000/api/video/items/properties/artist", 
+        "type": "string"
+      }, 
+      "song": {
+        "$id": "http://turing.niallbunting.com:3000/api/video/items/properties/song", 
+        "type": "string"
+      }, 
+      "publishDate": {
+        "$id": "http://turing.niallbunting.com:3000/api/video/items/properties/publishDate", 
+        "type": "string"
+      }, 
+      "__v": {
+        "$id": "http://turing.niallbunting.com:3000/api/video/items/properties/__v", 
+        "type": "integer"
+      }, 
+      "date_created": {
+        "$id": "http://turing.niallbunting.com:3000/api/video/items/properties/date_created", 
+        "type": "string"
+      }
+    }
+  }
+}
