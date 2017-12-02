@@ -35,7 +35,7 @@ public class CommonUtils {
 	}
 
 	/*
-	 * GET CAllS
+	 * GET CAllS for the request
 	 */
 	@Test
 	public static HttpResponse GET(String BaseURL) throws Exception {
